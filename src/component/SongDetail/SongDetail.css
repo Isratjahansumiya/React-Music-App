@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 10px;
+    margin: 15px 200px 5px 200px;
+    box-shadow: 5px 10px 8px #888888;
+    background-color: rgb(58, 57, 57);
+    color:white;
+
+
+}
+audio{
+    height:40px;
+    padding-left: 10px;
+}
+@media only screen and (max-width: 800px) {
+    .container {
+        margin: 15px 5px;
+    }
+    audio{
+        width:220px;
+    }
+  }
