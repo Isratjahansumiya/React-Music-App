@@ -1,4 +1,4 @@
-<img src="demo-pic/music-app.PNG" width="490px"
+<img src="demo-pic/music-app.PNG" width="490px"/>
 
 # Music App
 
@@ -46,4 +46,5 @@ Example: https://api.lyrics.ovh/suggest/baby
 ### Get lyrics
 
 API link: https://api.lyrics.ovh/v1/:artist/:title
+
 Example: https://api.lyrics.ovh/v1/Justin%20Bieber/Baby
