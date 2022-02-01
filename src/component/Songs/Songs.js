@@ -7,24 +7,24 @@ function Songs() {
     const [songs,setSongs]=useState([]);
     const [value,setValue]=useState(null);
     const [onClickbtn,setOnClickbtn]=useState(false)
-    
+
     useEffect(()=>{
         fetch(`https://api.lyrics.ovh/suggest/${value}`)
         .then(res=>res.json())
         .then(data=>setSongs(data.data))
     },[value])
-    
+
     function searchText(val){
-        setOnClickbtn(false); 
+        setOnClickbtn(false);
         setValue(val.target.value);
-                    
+
     }
 
     return (
         <div>
-            <h2>Listen Your favorite songs</h2>
+            <h2>Listen Your Favorite Songs</h2>
             <input type="text" name="" placeholder="Enter artist or song name" onChange={searchText}/>
-            <button onClick={()=>setOnClickbtn(true)} className="search_btn">Search</button>   
+            <button onClick={()=>setOnClickbtn(true)} className="search_btn">Search</button>
             <div className="song-container">
                 {
                     onClickbtn?

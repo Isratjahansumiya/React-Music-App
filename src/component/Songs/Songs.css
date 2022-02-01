@@ -2,14 +2,14 @@ input[type=text] {
     padding: 5px;
     border:1px solid blue;
     border-radius: 10px;
-    font-size: 10px;  
+    font-size: 10px;
   }
 .search_btn {
     padding: 4px;
     background-color: orange;
     border:none;
     border-radius: 10px;
-    margin-left: 5px;   
+    margin-left: 5px;
 }
 h2{
     color:rgb(58, 57, 57);

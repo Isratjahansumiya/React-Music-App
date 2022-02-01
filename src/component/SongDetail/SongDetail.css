@@ -10,6 +10,13 @@
 
 
 }
+button{
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+    margin: 5px;
+    font-weight: bold;
+}
 audio{
     height:40px;
     padding-left: 10px;
