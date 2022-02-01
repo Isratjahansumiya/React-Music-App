@@ -9,6 +9,7 @@ This simple music app uses Reactjs,Reactjs hooks,REST API
 - Search any music by artist or song name
 - listen audio music
 - Can get the lyrics of songs
+- Responsive design
 
 ## Installation
 
