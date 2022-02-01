@@ -1,6 +1,6 @@
-<img src="demo-pic/music-app.PNG" width="490px"/>
+<img src="demo-pic/music-app.PNG" width="590px"/>
 
-# Music App
+# A Music App
 
 This simple music app uses Reactjs,Reactjs hooks,REST API
 
